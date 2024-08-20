@@ -6,6 +6,8 @@ namespace Statistics {
         int min;
         int max;
         double average;
+        double sum;
+        int count;
     };
     
     Stats ComputeStatistics(const std::vector<double>& );
